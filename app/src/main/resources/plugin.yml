@@ -1,5 +1,9 @@
 name: LondServer-Core
 version: 0.1
-description: test plugin
+api-version: 1.19
+description: Core Plugin of Lond Server
 author: persona0306
 main: peru.sugoi.londserver.LondServerBukkitMain
+commands:
+  game:
+    default: true
